@@ -8,7 +8,11 @@
 
    **This technote is a work in progress.**
 
-   This technote explores how JSON-LD (Linked Data) can be used to describe a variety of LSST project artifacts, including source code and documents. We provide specific examples using standard vocabularies (http://schema.org and CodeMeta) and explore whether custom terms are needed to support LSST use cases.
+Abstract
+========
+
+This technote explores how `JSON-LD`_ (Linked Data) can be used to describe a variety of LSST project artifacts, including source code and documents.
+We provide specific examples using standard vocabularies (http://schema.org and CodeMeta) and explore whether custom terms are needed to support LSST use cases.
 
 Technotes
 =========
@@ -62,6 +66,7 @@ This example shows `SQR-006`_ described as a combined Report_ and SoftwareSource
 ..    :encoding: latex+latin
 ..    :style: lsst_aa
 
+.. _JSON-LD: https://json-ld.org
 .. _SQR-006: https://sqr-006.lsst.io
 .. _`term vocabulary from the CodeMeta project`: https://codemeta.github.io/terms/
 .. _languages.yml: https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
