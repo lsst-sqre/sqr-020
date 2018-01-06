@@ -1,0 +1,64 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/codemeta/codemeta/2.0-rc/codemeta.jsonld",
+    "http://schema.org"
+  ],
+  "@type": ["Report", "SoftwareSourceCode"],
+  "@id": "https://sqr-006.lsst.io",
+  "name": "The LSST the Docs Platform for Continuous Documentation Delivery",
+  "reportNumber": "SQR-006",
+  "url": "https://sqr-006.lsst.io",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "description": "The document describes the backend services that deploy documentation to the web whenever the Jenkins continuous integration system is triggered. The service is specifically designed for the Eups and Scons-based build tooling used by the LSST Stack.",
+  "programmingLanguage": "reStructuredText",
+  "codeRepository": "https://github.com/lsst-sqre/sqr-006",
+  "contIntegration": "https://travis-ci.org/lsst-sqre/sqr-006",
+  "readme": "https://github.com/lsst-sqre/sqr-006/blob/master/README.rst",
+  "developmentStatus": "Inactive",
+  "maintainer": {
+    "@type": "Person",
+    "name": "Jonathan Sick"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Jonathan Sick"
+    }
+  ],
+  "copyrightHolder": {
+    "@type": "Organization",
+    "name": "Association of Universities for Research in Astronomy, Inc."
+  },
+  "copyrightYear": 2016,
+  "dateModified": "2016-07-28",
+  "citation": [
+    {
+      "@type": "Book",
+      "name": "Site Reliability Engineering: How Google Runs Production Systems",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Niall Richard Murphy",
+          "position": 1
+        },
+        {
+          "@type": "Person",
+          "name": "Jennifer Petoff",
+          "position": 2
+        },
+        {
+          "@type": "Person",
+          "name": "Chris Jones",
+          "position": 3
+        },
+        {
+          "@type": "Person",
+          "name": "Betsy Beyer",
+          "position": 4
+        }
+      ],
+      "publisher": "O'Reilly Media",
+      "copyrightYear": 2016
+    }
+  ]
+}

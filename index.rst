@@ -16,6 +16,9 @@ Technotes
 .. literalinclude:: examples/sqr-006.jsonld
    :language: json
 
+.. literalinclude:: examples/sqr-006.softwaresourcecode.jsonld
+   :language: json
+
 .. .. rubric:: References
 
 .. Make in-text citations with: :cite:`bibkey`.
